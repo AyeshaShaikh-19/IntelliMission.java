@@ -1,0 +1,7 @@
+from PIL import Image, ImageDraw
+
+img = Image.new('RGB', (800,800), (210,220,200))   # light olive-beige base
+draw = ImageDraw.Draw(img)
+draw.rectangle([50,50,200,150], fill=(180,140,90))  # hill
+draw.ellipse([400,200,700,500], fill=(160,120,80))  # terrain feature
+img.save('mock_terrain.tif')

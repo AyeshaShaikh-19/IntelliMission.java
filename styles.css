@@ -1,0 +1,63 @@
+.root {
+-fx-font-family: "Segoe UI", "Helvetica", "Arial";
+-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #eae6cf 0%, #c9c4a5 100%);
+}
+
+
+.label {
+-fx-text-fill: #2f2f1d;
+-fx-font-size: 14px;
+}
+
+
+.button {
+-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #b6b38a 0%, #9a9774 100%);
+-fx-text-fill: #1f1f1f;
+-fx-font-weight: bold;
+-fx-background-radius: 6;
+-fx-border-radius: 6;
+-fx-padding: 6 14 6 14;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 6, 0, 1, 1);
+}
+
+
+.button:hover {
+-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #c7c49b 0%, #aaa780 100%);
+}
+
+
+.side-panel {
+-fx-background-color: #d2cfb3;
+-fx-padding: 10;
+-fx-border-color: #9f9c84;
+-fx-border-width: 2;
+-fx-border-radius: 8;
+}
+
+
+.text {
+-fx-fill: #1c1c14;
+}
+
+
+.menu-bar {
+-fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #bdb892 0%, #a5a17b 100%);
+-fx-border-color: #7b775b;
+}
+
+
+.table-view {
+-fx-background-color: #ebe7cf;
+}
+
+
+.scroll-pane .viewport {
+-fx-background-color: #dcd8b8;
+}
+
+
+.text-field, .password-field {
+-fx-background-color: #f8f6e0;
+-fx-border-color: #a29f84;
+-fx-border-radius: 5;
+}

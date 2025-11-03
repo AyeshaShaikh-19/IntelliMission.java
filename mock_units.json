@@ -1,0 +1,9 @@
+{
+  "units": [
+    { "id": "U001", "name": "Infantry Alpha", "strength": 80, "x": 10, "y": 12, "faction": "Friendly", "type": "Infantry" },
+    { "id": "U002", "name": "Tank Bravo", "strength": 90, "x": 20, "y": 18, "faction": "Friendly", "type": "Armor" },
+    { "id": "U003", "name": "Drone Recon", "strength": 70, "x": 25, "y": 22, "faction": "Friendly", "type": "Drone" },
+    { "id": "E001", "name": "Enemy Outpost", "strength": 60, "x": 40, "y": 35, "faction": "Enemy", "type": "Static" },
+    { "id": "E002", "name": "Enemy Armored", "strength": 85, "x": 45, "y": 30, "faction": "Enemy", "type": "Armor" }
+  ]
+}
